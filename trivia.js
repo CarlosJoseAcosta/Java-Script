@@ -35,7 +35,7 @@ function respuesta() {
     if (document.querySelector("#res10").checked) {
         puntos++;
     } else if (document.querySelector("#res11").checked) {
-        pregutnasFallidas.push("pregunta4");
+        pregutnasFallidas.push("pregunta4");//
     } else if (document.querySelector("#res12").checked) {
         pregutnasFallidas.push("pregunta4");
     } else {
