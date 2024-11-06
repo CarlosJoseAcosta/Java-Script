@@ -107,6 +107,7 @@ function respuesta() {
         comprobante = false;
         document.querySelector(".pregunta10").style.color = "red";
     }
+    console.log(comprobante);
     if (comprobante) {
         alert("No ha respondido a todas las preguntas")
     } else {
