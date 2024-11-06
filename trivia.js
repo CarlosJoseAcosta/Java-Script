@@ -108,13 +108,13 @@ function respuesta() {
         document.querySelector(".pregunta10").style.color = "red";
     }
     document.querySelector()
-}
-if (comprobante) {
-    alert("No ha respondido a todas las preguntas")
-} else {
-    document.querySelector("#puntuacion").innerHTML = "Sus puntos son: " + puntos;
-    for(let i = 0; i < pregutnasFallidas.length; i++){
-        
+    if (comprobante) {
+        alert("No ha respondido a todas las preguntas")
+    } else {
+        document.querySelector("#puntuacion").innerHTML = "Sus puntos son: " + puntos;
+        for(let i = 0; i < pregutnasFallidas.length; i++){
+            document.querySelector("#fallos").innerHTML += pregutnasFallidas[i];
+        }
     }
 }
 document.querySelector("#fin").addEventListener("click", respuesta);
