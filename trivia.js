@@ -8,7 +8,7 @@ function respuesta() {
         pregutnasFallidas.push("pregunta1");
     } else if (document.querySelector("#res2").checked) {
         pregutnasFallidas.push("pregunta1");
-    } else {
+    } else if((!document.querySelector("#res3").checked) && (!document.querySelector("#res1").checked) && (!document.querySelector("#res2").checked)){
         comprobante = false;
         document.querySelector(".pregunta1").computedStyleMap.color = "red";
     }
@@ -18,7 +18,7 @@ function respuesta() {
         pregutnasFallidas.push("pregunta2");
     } else if (document.querySelector("#res6").checked) {
         pregutnasFallidas.push("pregunta2");
-    } else {
+    } else if((!document.querySelector("#res4").checked) && (!document.querySelector("#res5").checked) && (!document.querySelector("#res6").checked)){
         comprobante = false;
         document.querySelector(".pregunta2").style.color = "red";
     }
@@ -28,7 +28,7 @@ function respuesta() {
         pregutnasFallidas.push("pregunta3");
     } else if (document.querySelector("#res8").checked) {
         pregutnasFallidas.push("pregunta3");
-    } else {
+    } else if((!document.querySelector("#res7").checked) && (!document.querySelector("#res8").checked) && (!document.querySelector("#res9").checked)){
         comprobante = false;
         document.querySelector(".pregunta3").style.color = "red";
     }
@@ -38,7 +38,7 @@ function respuesta() {
         pregutnasFallidas.push("pregunta4");//
     } else if (document.querySelector("#res12").checked) {
         pregutnasFallidas.push("pregunta4");
-    } else {
+    } else if((!document.querySelector("#res10").checked) && (!document.querySelector("#res11").checked) && (!document.querySelector("#res12").checked)){
         comprobante = false;
         document.querySelector(".pregunta4").style.color = "red";
     }
@@ -48,7 +48,7 @@ function respuesta() {
         pregutnasFallidas.push("pregunta5");
     } else if (document.querySelector("#res15").checked) {
         pregutnasFallidas.push("pregunta5");
-    } else {
+    } else if((!document.querySelector("#res13").checked) && (!document.querySelector("#res14").checked) && (!document.querySelector("#res15").checked)){
         comprobante = false;
         document.querySelector(".pregunta5").style.color = "red";
     }
@@ -59,7 +59,7 @@ function respuesta() {
         pregutnasFallidas.push("pregunta6");
     } else if (document.querySelector("#res18").checked) {
         pregutnasFallidas.push("pregunta6");
-    } else {
+    } else if((!document.querySelector("#res16").checked) && (!document.querySelector("#res17").checked) && (!document.querySelector("#res18").checked)){
         comprobante = false;
         document.querySelector(".pregunta6").style.color = "red";
     }
@@ -70,7 +70,7 @@ function respuesta() {
         pregutnasFallidas.push("pregunta7");
     } else if (document.querySelector("#res20").checked) {
         pregutnasFallidas.push("pregunta7");
-    } else {
+    } else if((!document.querySelector("#res19").checked) && (!document.querySelector("#res20").checked) && (!document.querySelector("#res21").checked)){
         comprobante = false;
         document.querySelector(".pregunta7").style.color = "red";
     }
@@ -81,7 +81,7 @@ function respuesta() {
         pregutnasFallidas.push("pregunta8");
     } else if (document.querySelector("#res23").checked) {
         pregutnasFallidas.push("pregunta8");
-    } else {
+    } else if((!document.querySelector("#res22").checked) && (!document.querySelector("#res23").checked) && (!document.querySelector("#res24").checked)){
         comprobante = false;
         document.querySelector(".pregunta8").style.color = "red";
     }
@@ -92,7 +92,7 @@ function respuesta() {
         pregutnasFallidas.push("pregunta9");
     } else if (document.querySelector("#res26").checked) {
         pregutnasFallidas.push("pregunta9");
-    } else {
+    } else if((!document.querySelector("#res25").checked) && (!document.querySelector("#res26").checked) && (!document.querySelector("#res27").checked)){
         comprobante = false;
         document.querySelector(".pregunta9").style.color = "red";
     }
@@ -103,7 +103,7 @@ function respuesta() {
         document.querySelector(".pregunta10").style.color = "red";
     } else if (document.querySelector("#res30").checked) {
         document.querySelector(".pregunta10").style.color = "red";
-    } else {
+    } else if((!document.querySelector("#res30").checked) && (!document.querySelector("#res28").checked) && (!document.querySelector("#res29").checked)){
         comprobante = false;
         document.querySelector(".pregunta10").style.color = "red";
     }
